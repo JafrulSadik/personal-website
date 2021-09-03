@@ -1,0 +1,47 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.pink-text{
+    color: rgb(236,78,143);
+    font-size: 50px;
+    font-weight: bolder;
+}
+#introduction{
+    color: rgb(130, 134, 131);
+}
+
+.half-width{
+    align-items: center;
+    float:left;
+    width: 40%;
+    margin: 1%;
+    padding: 2%;
+}
+
+.half-width img{
+    width: 100%;
+}
+section{
+    height: 900px;
+}
+
+#header{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    
+}
+
+#hello{
+    margin-left: 9%;
+    margin-top: 15%;
+}
+
+.button{
+     background-color: rgb(236,78,143);
+     text-decoration: none;
+     padding:10px 20px;
+     border-radius: 5px;
+     color: white;
+    
+ }
