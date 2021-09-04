@@ -1,47 +1,63 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-
-.pink-text{
-    color: rgb(236,78,143);
-    font-size: 50px;
+.jack{
+    font-size: 40px;
     font-weight: bolder;
-}
-#introduction{
-    color: rgb(130, 134, 131);
+    color: rgb(227, 6, 183)
 }
 
-.half-width{
-    align-items: center;
-    float:left;
-    width: 40%;
-    margin: 1%;
-    padding: 2%;
-}
-
-.half-width img{
-    width: 100%;
-}
-section{
-    height: 900px;
-}
-
-#header{
-    background-image: url("images/header-bg.png");
-    background-repeat: no-repeat;
-    
-}
-
-#hello{
-    margin-left: 9%;
-    margin-top: 15%;
+.text{
+    color: rgb(119, 115, 115) ;
 }
 
 .button{
-     background-color: rgb(236,78,143);
-     text-decoration: none;
-     padding:10px 20px;
-     border-radius: 5px;
-     color: white;
-    
- }
+    padding:10px 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(227, 6, 183);
+    text-decoration: none;
+}
+
+.header{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size:100%;
+    height: 840px;
+    align-items: center;
+}
+
+.headerd{
+    width: 40%;
+    margin: 5%;
+    margin-top:200px;
+    float: left;
+
+}
+
+.headers{
+    width: 50%;
+    padding-top: 90px;
+    float: left;
+}
+.headers img{
+    width: 70%;
+}
+
+.biography{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size:100%;
+    height: 900px;
+    width: 50px
+    align-items: center;
+}
+
+.headers2{
+    width:50%;
+    float: left;
+}
+.headers2 img{
+    width: 50%;
+}
+
